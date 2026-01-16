@@ -1,0 +1,34 @@
+critical_analysis_task:
+  description: >
+    Analyze the provided academic document (thesis, article, or research paper).
+    Scan the document for technical gaps and weaknesses across all sections, such as:
+    - Introduction/Motivation
+    - Background/Literature Review
+    - Methodology/Proposed Approach
+    - Results/Experiments
+    - Discussion/Conclusion
+    For each major section, identify at least one specific technical weakness, lack of detail, or methodological issue.
+    You MUST cite specific terms, concepts, or claims from the document if they are problematic or need clarification.
+  expected_output: >
+    A very detailed technical critique. Format:
+    # Technical Flaws
+    ## [Section Name]
+    - Issue: [Description]
+    - Evidence: [Quote or reference from the document]
+  agent: rigid_professor
+
+constructive_analysis_task:
+  description: >
+    Review the Technical Critique provided by the previous task and the original academic document.
+    Your job is to expand this into a comprehensive Academic Advisory Report.
+    For every flaw found, provide a detailed solution (at least 2 paragraphs). 
+    Incorporate specific advice on how to improve the methodology, experiments, or theoretical foundations.
+    The final output MUST be at least 1000 words long to ensure depth and thoroughness.
+  expected_output: >
+    A comprehensive Academic Advisory Report. 
+    It MUST include:
+    1. A summary of the critique.
+    2. Detailed sections for each improvement with actionable recommendations.
+    3. A concluding roadmap with prioritized next steps.
+    Format as markdown without '```'.
+  agent: positive_professor
