@@ -63,14 +63,3 @@ These agents collaborate on a series of tasks defined in `config/tasks.yaml`, le
 3. The rigid professor analyzes the document and creates a technical critique
 4. The positive professor reviews the critique and creates a comprehensive advisory report
 5. Review the `report.md` file for detailed feedback and recommendations
-
-## Support
-
-For support, questions, or feedback regarding the ResearchCrew Crew or crewAI.
-
-- Visit our [documentation](https://docs.crewai.com)
-- Reach out to us through our [GitHub repository](https://github.com/joaomdmoura/crewai)
-- [Join our Discord](https://discord.com/invite/X4JWnZnxPb)
-- [Chat with our docs](https://chatg.pt/DWjSBZn)
-
-Let's create wonders together with the power and simplicity of crewAI.
